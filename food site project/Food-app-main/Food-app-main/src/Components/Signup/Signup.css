@@ -1,0 +1,62 @@
+.signupWrapper {
+  background-image: url("./Signup.jpg"); /* Path to your image */
+  background-size: cover; /* Make sure the image covers the whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupForm {
+  opacity: 0.8;
+  width: 30vw;
+  height: 70vh;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.signupForm h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.signupForm input {
+  width: 60%;
+  height: 40px;
+  border: 2px solid rgb(112, 112, 129);
+  border-radius: 5px;
+}
+
+.signupForm label {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.signupForm button {
+  color: white;
+  width: 40%;
+  height: 50px;
+  background: rgb(157, 194, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 18px;
+  border-radius: 6px;
+}

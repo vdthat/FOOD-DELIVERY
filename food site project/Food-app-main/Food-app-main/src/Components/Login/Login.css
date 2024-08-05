@@ -1,0 +1,62 @@
+.loginWrapper {
+  background-image: url("./Login.jpg"); /* Path to your image */
+  background-size: cover; /* Make sure the image covers the whole container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  opacity: 0.8;
+  width: 30vw;
+  height: 50vh;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.loginForm h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0;
+}
+
+.loginForm input {
+  width: 60%;
+  height: 30px;
+  border: 2px solid rgb(112, 112, 129);
+  border-radius: 5px;
+}
+
+.loginForm label {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.loginForm button {
+  color: white;
+  width: 40%;
+  height: 50px;
+  background: rgb(157, 194, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+}

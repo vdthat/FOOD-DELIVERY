@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  color: white;
+  width: 110px;
+  height: 40px;
+  background: rgb(157, 194, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+.button:hover {
+  cursor: pointer;
+}
